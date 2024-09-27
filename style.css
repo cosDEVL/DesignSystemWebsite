@@ -1,0 +1,711 @@
+body{
+    font-family: "verdana";
+    margin: 0;
+    background-color: rgb(250, 235, 215);
+    
+}
+
+section{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+/*HEADER AND NAVBAR CSS */
+/*START*/
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(121, 120, 120);
+    height: 80px;
+    border-bottom: 1px black solid;
+    padding-left: 5px;
+    padding-top: 5px;
+    z-index: 2;
+}
+
+header h1 {
+    margin: auto;
+    display: inline-block;
+    color: aliceblue;
+}
+
+header ul {
+    margin: auto;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+header li {
+    font-size: 1.3em;
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    
+}
+
+header a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/*END*/
+
+
+
+#colors{
+    margin: 100px auto 50px auto;
+    width: 90%;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+section {
+    margin: 50px auto 50px auto;
+    width: 90%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.anchor{
+    position: relative;
+    left: 0;
+    top: -100px;
+
+}
+
+
+
+section .section-title{
+
+    border-bottom: 2px solid black;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 1.4em;
+
+}
+
+section .section-content{
+    margin: 15px 30px;
+}
+
+/*COLORS SECTION CSS*/
+/*START*/
+
+#colors .section-color{
+    border-left: 3px solid #111;
+    padding-left: 1.2em;
+    margin-bottom: 4em;
+}
+
+.color-palette{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+.color{
+    width: 22%;
+    height: 150px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+.color p{
+    margin: 5px 0;
+    
+}
+
+@media (max-width:600px){
+    .color-palette{
+        flex-direction: column;
+        
+    }
+
+    .color{
+        margin: 10px auto;
+        width: 80%;
+        
+    }
+
+    .color p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:50%){
+
+    .color p{
+        font-size: 20px;
+    }
+}
+
+.barn-red{
+    background-color: #7C0902;
+    color: white;
+}
+
+.blood-red{
+    background-color: #660000;
+    color: white;
+}
+
+.carmine{
+    background-color: #960018;
+    color: white;
+}
+
+.chill-red{
+    background-color: #E23D28;
+    color: white;
+}
+
+.amber{
+    background-color: #FFBF00;
+    
+}
+
+.aureolin{
+    background-color: #FDEE00;
+}
+
+.citron{
+    background-color: #DDD06A;
+}
+
+.champagne{
+    background-color: #F7E7CE;
+}
+
+.apple-green{
+    background-color: #8DB600;
+    color: white;
+}
+
+.bright-green{
+    background-color: #66FF00;
+    color: white;
+}
+
+.celadon{
+    background-color: #ACE1AF;
+    color: white;
+}
+
+.aquamarine{
+    background-color: #00FFBF;
+    color: white;
+}
+
+.azure{
+    background-color: #007FFF;
+    color: white;
+}
+
+.blue-green{
+    background-color: #0D98BA;
+    color: white;
+}
+
+.cyan{
+    background-color: #00FFFF;
+    color: white;
+}
+
+.moonstone{
+    background-color: #3AA9C1;
+    color: white;
+}
+
+.air-force-blue{
+    background-color: #5D8AA8;
+    color: white;
+}
+
+.baby-blue{
+    background-color: #89CFF0;
+    color: white;
+}
+
+.berkeley-blue{
+    background-color: #003262;
+    color: white;
+}
+
+.blue-gray{
+    background-color: #6699CC;
+    color: white;
+}
+
+.rich-black{
+    background-color: #010B13;
+    color: white;
+}
+
+.charcoal{
+    background-color: #36454F;
+    color: white;
+}
+
+.erie-black{
+    background-color: #1B1B1B;
+    color: white;
+}
+
+.night{
+    background-color: #111111;
+    color: white;
+}
+
+.alabaster{
+    background-color: #EDEAE0;
+}
+
+.antique-white{
+    background-color: #FAEBD7;
+}
+
+.bone{
+    background-color: #E3DAC9;
+}
+
+.cosmic-latte{
+    background-color: #FFF8E7;
+}
+
+/*END*/
+
+
+/*FONTS SECTION CSS*/
+/*START*/
+
+.web-safe-fonts h1, .other-web-fonts h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.web-safe-fonts .border-div, .other-web-fonts .border-div{
+    border-bottom: #111111 1px solid;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.other-web-fonts{
+    margin-top: 60px;
+}
+
+
+.font-section{
+    border-left: #111 3px solid;
+    padding-left: 1.2em;
+    margin-bottom: 4em;
+}
+
+.font-section p{
+    font-size: 1.2em;
+}
+
+.font-section .bold{
+    font-weight: bold;
+}
+
+.font-section .italic{
+    font-style: italic;
+}
+
+
+.arial-font{
+    font-family: Arial, sans-serif;
+}
+
+.verdana-font{
+    font-family: Verdana, sans-serif;
+}
+
+.trebuchet-ms-font{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.times-new-roman-font{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.courier-new-font{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.space-mono-font{
+    font-family: "Space Mono", monospace;
+}
+
+.source-code-pro-font{
+    font-family: "Source Code Pro", monospace;
+}
+
+.raleway-font{
+    font-family: "Raleway", sans-serif;
+}
+
+.fauna-one-font{
+    font-family: "Fauna One", serif;
+}
+
+.montserrat-alternates-font{
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+/*END*/
+
+
+/*TEXT STYLES SECTION CSS*/
+/*START*/
+
+.h1-style-section, .h2-style-section, .p-style-section{
+    border-left: 3px #111 solid;
+    padding-left: 1.2em;
+    margin-bottom: 4em;
+}
+
+#text-styles .section-content{
+    font-size: 1.2em;
+}
+
+/*END*/
+
+
+/*BUTTONS SECTION CSS*/
+/*START*/
+
+#buttons .custom-button{
+    text-align: center;
+    text-decoration: none;
+    
+    cursor: pointer;
+}
+
+#buttons input{
+    margin: 10px 5px;
+    
+}
+
+.classic-buttons .custom-button{
+    background-color: #04AA6D;
+    padding: 15px 32px;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.button-colors .custom-button{
+    padding: 15px 32px;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.button-colors .red-button, .rounded-buttons .red-rounded-button{
+    background-color: #f44336;
+}
+
+.button-colors .blue-button, .rounded-buttons .blue-rounded-button{
+    background-color: #008CBA;
+}
+
+.button-colors .green-button, .rounded-buttons .green-rounded-button{
+    background-color: #04AA6D;
+}
+
+.button-colors .black-button, .rounded-buttons .black-rounded-button{
+    background-color: #555555;
+}
+
+.rounded-buttons .custom-button {
+    padding: 20px;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.rounded-buttons .red-rounded-button{
+    border-radius: 2px;
+}
+
+.rounded-buttons .blue-rounded-button{
+    border-radius: 4px;
+}
+
+.rounded-buttons .green-rounded-button{
+    border-radius: 8px;
+}
+
+.rounded-buttons .black-rounded-button{
+    border-radius: 50%;
+
+}
+
+.colored-buttons-border .custom-button{
+    color: #111;
+    padding: 15px 32px;
+    background-color: white;
+    font-size: 16px;
+}
+
+.colored-buttons-border .red-border-button{
+    border: 2px solid #f44336;
+}
+
+.colored-buttons-border .blue-border-button{
+    border: 2px solid #008CBA;
+}
+
+.colored-buttons-border .green-border-button{
+    border: 2px solid #04AA6D;
+}
+
+.colored-buttons-border .black-border-button{
+    border: 2px solid #555;
+}
+
+.hoverable-buttons .custom-button{
+    padding: 15px 32px;
+    font-size: 16px;
+}
+
+.hoverable-buttons .hover-button{
+    transition-duration: 0.5s;
+}
+
+.hoverable-buttons .hover-button:hover{
+    background-color: white;
+    color: #111;
+}
+
+.hoverable-buttons .red-hover-button{
+    background-color: #f44336;
+    color: white;
+    border: 2px solid #f44336;
+    
+}
+
+.hoverable-buttons .blue-hover-button{
+    background-color: #008CBA;
+    color: white;
+    border: 2px solid #008CBA;
+}
+
+.hoverable-buttons .green-hover-button{
+    background-color: #04AA6D;
+    color: white;
+    border: 2px solid #04AA6D;
+}
+
+.hoverable-buttons .black-hover-button{
+    background-color: #555;
+    color: white;
+    border: 2px solid #555;
+}
+
+
+.hoverable-buttons .border-hover-button{
+    transition-duration: 0.5s;
+}
+
+.hoverable-buttons .red-border-hover-button{
+    color: #111;
+    border: 2px solid #f44336;
+    
+}
+
+.hoverable-buttons .red-border-hover-button:hover{
+    background-color: #f44336;
+    color: white;
+}
+
+.hoverable-buttons .blue-border-hover-button{
+    color: #111;
+    border: 2px solid #008CBA;
+}
+
+.hoverable-buttons .blue-border-hover-button:hover{
+    background-color: #008CBA;
+    color: white;
+}
+
+.hoverable-buttons .green-border-hover-button{
+    color: #111;
+    border: 2px solid #04AA6D;
+}
+
+.hoverable-buttons .green-border-hover-button:hover{
+    background-color: #04AA6D;
+    color: white;
+}
+
+.hoverable-buttons .black-border-hover-button{
+    color: #111;
+    border: 2px solid #555;
+}
+
+.hoverable-buttons .black-border-hover-button:hover{
+    background-color: #555;
+    color: white;
+}   
+
+.shadow-buttons .custom-button{
+    padding: 15px 32px;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.shadow-buttons .shadow-button{
+    box-shadow: 0 8px 16px 0 #11111169, 0 8px 16px 0 #11111169;
+}
+
+.shadow-buttons .shadow-hover-button{
+    transition-duration: 0.5s;
+}
+
+.shadow-buttons .shadow-hover-button:hover{
+    box-shadow: 0 8px 16px 0 #11111169, 0 10px 18px 0 #11111169;
+}
+
+.animated-buttons .arrow-hover-button{
+
+    transition: all 0.5s;
+    padding: 20px ;
+    width: 200px;
+    border: none;
+    background-color: #ee5223;
+    color: white;
+    font-size: 16px;
+    
+}
+
+.arrow-hover-button span{
+    display: inline-block;
+    position: relative;
+    transition: all 0.5s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px
+}
+
+.arrow-hover-button span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition:  0.5s;
+}
+
+.arrow-hover-button:hover span{
+    padding-right: 25px;
+}
+
+.arrow-hover-button:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+
+
+
+.animated-buttons .press-effect-button{
+    display: inline-block;
+    padding: 20px 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 10px;
+    box-shadow: -2px 10px #6e6e6e;
+    transition: all 0.1s;
+}
+
+.animated-buttons .press-effect-button:hover{
+    background-color: #059b64;
+}
+
+.animated-buttons .press-effect-button:active{
+    background-color: #059b64;
+    box-shadow: -1px 6px #585858;
+    
+    transform: translate(-1px,4px );
+    
+}
+
+.ripple-effect-button{
+    position: relative;
+    background-color: #04AA6D;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.ripple-effect-button:after{
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+    
+}
+
+.ripple-effect-button:active:after{
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+}
+
+.animated-buttons .fade-in-button{
+    opacity: 0.6;
+    background-color: #a55b56;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px 36px;
+    transition-duration: 0.5s;
+}
+
+.animated-buttons .fade-in-button:hover{
+    opacity: 1;
+}
+
+/*END*/
+
+#buttons .button-section{
+    border-left: 3px solid #111;
+    padding-left: 1.2em;
+    margin-bottom: 4em;
+}
